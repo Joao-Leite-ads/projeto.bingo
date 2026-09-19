@@ -1,20 +1,3 @@
-/*
- * Gerador de Cartelas de Bingo
- * ----------------------------
- * Exercicio pratico em linguagem C.
- *
- * Cobre:
- *  - Matriz para armazenar a cartela (5x5)
- *  - Enum para representar as colunas B, I, N, G, O
- *  - Funcoes para modularizar o programa
- *  - Desafio 1: usuario informa a quantidade de cartelas
- *  - Desafio 2/3: cartelas armazenadas com struct (equivalente a uma
- *                 matriz tridimensional, so que mais organizado: um
- *                 vetor de cartelas, cada uma com sua matriz 5x5)
- *  - Desafio 4: numeros de cada coluna ordenados de forma crescente
- *  - Desafio 5: garante que nao sejam geradas cartelas identicas
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
